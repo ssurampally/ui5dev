@@ -1,7 +1,6 @@
-<mvc:View controllerName="ui5dev.controller.HomePage"
-    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
-    xmlns="sap.m">
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ui5dev.controller.HomePage" displayBlock="true">
     <Page id="page" title="{i18n>title}">
-        <content />
+        <content><Label text="myfirstui5control" width="100%" id="label0"/><Text xmlns="sap.m" text="graphicalText" id="text2"/>
+        </content>
     </Page>
 </mvc:View>
